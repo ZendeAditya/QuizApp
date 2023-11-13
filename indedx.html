@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+    </style>
+  </head>
+
+  <!-- Change code below this line -->
+
+  <body
+    class="bg-[#F1F4FD] flex justify-center items-center min-h-screen overflow-hidden font-[Poppins]"
+  >
+    <main class="w-[37rem] h-[37rem] rounded-md bg-blue-500/10 shadow-lg">
+      <div id="result"></div>
+      <div id="quiz"></div>
+      <div class="flex justify-center items-center min-h-screen">
+        <button
+          id="btn"
+          class="py-2 px-8 rounded-md bg-blue-300 text-white duration-300 ease-in"
+        >
+          Start Quiz
+        </button>
+        <div id="btns" class="hidden">
+          <div class="absolute right-0 bottom-10 px-10">
+            <button
+              id="prev"
+              class="py-2 px-8 rounded-md bg-blue-300 text-white"
+            >
+              Previous
+            </button>
+            <button
+              id="next"
+              class="py-2 px-8 rounded-md bg-blue-300 text-white"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+  <!-- Change code above this line -->
+</html>
